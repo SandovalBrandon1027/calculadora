@@ -184,12 +184,14 @@ public class calculadora2 extends JDialog{
 
         }
 
-        public static void main(String[] args) {
-        calculadora2 dialog = new calculadora2();
-        dialog.setVisible(true);
-        System.exit(0);
+
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("calculadora2");
+        frame.setContentPane(new calculadora2().cuerpo);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
+
+
     }
-
-
-
 }
