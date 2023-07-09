@@ -16,12 +16,12 @@
         </constraints>
         <properties/>
       </component>
-      <component id="c1147" class="javax.swing.JButton" binding="button1" default-binding="true">
+      <component id="c1147" class="javax.swing.JButton" binding="salir">
         <constraints>
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="Salir"/>
         </properties>
       </component>
       <component id="93769" class="javax.swing.JButton" binding="cero">
@@ -88,20 +88,20 @@
           <text value="CE"/>
         </properties>
       </component>
-      <component id="63358" class="javax.swing.JButton" binding="borrar">
+      <component id="63358" class="javax.swing.JButton" binding="raizCuadrada">
         <constraints>
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="√"/>
         </properties>
       </component>
-      <component id="bfd63" class="javax.swing.JButton" binding="button11" default-binding="true">
+      <component id="bfd63" class="javax.swing.JButton" binding="raizCubica">
         <constraints>
           <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="∛"/>
         </properties>
       </component>
       <component id="64e59" class="javax.swing.JButton" binding="tres">
@@ -128,12 +128,12 @@
           <text value="9"/>
         </properties>
       </component>
-      <component id="69a95" class="javax.swing.JButton" binding="button15" default-binding="true">
+      <component id="69a95" class="javax.swing.JButton" binding="punto">
         <constraints>
           <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="."/>
         </properties>
       </component>
       <component id="5a573" class="javax.swing.JButton" binding="dividir">
