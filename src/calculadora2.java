@@ -225,3 +225,4 @@ public class calculadora2 extends JDialog {
         frame.setVisible(true);
     }
 }
+
