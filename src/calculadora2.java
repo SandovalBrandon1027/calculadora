@@ -15,7 +15,7 @@ public class calculadora2 extends JDialog {
     private JButton dos;
     private JButton borrartodo;
     private JButton raizCuadrada;
-    private JButton raizCubica;
+    private JButton potencia;
     private JButton tres;
     private JButton seis;
     private JButton nueve;
@@ -25,11 +25,10 @@ public class calculadora2 extends JDialog {
     private JButton resta;
     private JButton suma;
     private JButton resultado;
-    private JButton salir; // Botón para salir
-    private JButton button2;
-    private JButton button3;
-    private JButton button4;
-    private JButton button5;
+    private JButton salir;
+    private JButton seno;
+    private JButton coseno;
+    private JButton tangente;
 
     private String operador;
     private double primerNumero;
@@ -130,9 +129,27 @@ public class calculadora2 extends JDialog {
             }
         });
 
-        raizCubica.addActionListener(new ActionListener() {
+        potencia.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                calcularRaizCubica();
+                calcularPotencia();
+            }
+        });
+
+        seno.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                calcularSeno();
+            }
+        });
+
+        coseno.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                calcularCoseno();
+            }
+        });
+
+        tangente.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                calcularTangente();
             }
         });
 
@@ -207,10 +224,31 @@ public class calculadora2 extends JDialog {
         textPane1.setText(String.valueOf(resultado));
     }
 
-    private void calcularRaizCubica() {
+    private void calcularPotencia() {
         String texto = textPane1.getText();
         double numero = Double.parseDouble(texto);
-        double resultado = Math.cbrt(numero);
+        double resultado = Math.pow(numero, 2);
+        textPane1.setText(String.valueOf(resultado));
+    }
+
+    private void calcularSeno() {
+        String texto = textPane1.getText();
+        double numero = Double.parseDouble(texto);
+        double resultado = Math.sin(numero);
+        textPane1.setText(String.valueOf(resultado));
+    }
+
+    private void calcularCoseno() {
+        String texto = textPane1.getText();
+        double numero = Double.parseDouble(texto);
+        double resultado = Math.cos(numero);
+        textPane1.setText(String.valueOf(resultado));
+    }
+
+    private void calcularTangente() {
+        String texto = textPane1.getText();
+        double numero = Double.parseDouble(texto);
+        double resultado = Math.tan(numero);
         textPane1.setText(String.valueOf(resultado));
     }
 
@@ -229,4 +267,3 @@ public class calculadora2 extends JDialog {
         frame.setVisible(true);
     }
 }
-

@@ -88,12 +88,12 @@
           <text value="√"/>
         </properties>
       </component>
-      <component id="bfd63" class="javax.swing.JButton" binding="raizCubica">
+      <component id="bfd63" class="javax.swing.JButton" binding="potencia">
         <constraints>
           <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="∛"/>
+          <text value="^"/>
         </properties>
       </component>
       <component id="64e59" class="javax.swing.JButton" binding="tres">
@@ -168,44 +168,28 @@
           <text value="="/>
         </properties>
       </component>
-      <component id="2e374" class="javax.swing.JButton" binding="button1" default-binding="true">
+      <component id="2e374" class="javax.swing.JButton" binding="seno">
         <constraints>
           <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="seno"/>
         </properties>
       </component>
-      <component id="10cc4" class="javax.swing.JButton" binding="button2" default-binding="true">
+      <component id="10cc4" class="javax.swing.JButton" binding="coseno">
         <constraints>
           <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="coseno"/>
         </properties>
       </component>
-      <component id="10c21" class="javax.swing.JButton" binding="button3" default-binding="true">
+      <component id="10c21" class="javax.swing.JButton" binding="tangente">
         <constraints>
           <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
-        </properties>
-      </component>
-      <component id="7e0cb" class="javax.swing.JButton" binding="button4" default-binding="true">
-        <constraints>
-          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Button"/>
-        </properties>
-      </component>
-      <component id="da6ea" class="javax.swing.JButton" binding="button5" default-binding="true">
-        <constraints>
-          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Button"/>
+          <text value="tangente"/>
         </properties>
       </component>
       <component id="d8cc" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
