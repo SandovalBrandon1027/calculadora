@@ -1,4 +1,4 @@
 # calculadora
 Haciendo una calculadora
-#Andrew Vilcacundo
-#Brandon Sandoval
+# Andrew Vilcacundo
+# Brandon Sandoval
