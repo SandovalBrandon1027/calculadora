@@ -26,6 +26,10 @@ public class calculadora2 extends JDialog {
     private JButton suma;
     private JButton resultado;
     private JButton salir; // Botón para salir
+    private JButton button2;
+    private JButton button3;
+    private JButton button4;
+    private JButton button5;
 
     private String operador;
     private double primerNumero;
