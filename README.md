@@ -1,4 +1,5 @@
-# calculadora
+# Calculadora
 Haciendo una calculadora
-# Andrew Vilcacundo
-# Brandon Sandoval
+# Integrantes:
+## Andrew Vilcacundo
+## Brandon Sandoval
